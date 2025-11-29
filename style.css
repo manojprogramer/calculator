@@ -1,0 +1,75 @@
+body {
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    min-height : 100vh;
+}
+.container {
+    width : 300px;
+    height : 450px;
+    border : 1px solid;
+    display : flex;
+    justify-content : end;
+    flex-direction : column;
+    align-items : center;
+    background-color : black;
+    border-radius : 20px;
+}
+.container table {
+    width : 280px;
+    height : 350px;
+    /* border : 1px solid red; */
+    display : flex;
+    justify-content :center;
+    align-items : center;
+    flex-direction : column;
+}
+.container table td {
+    width :70px;
+    height : 60px;
+}
+.container table td button {
+    width : 60px;
+    height : 60px;
+    border-radius : 100%;
+    font-family : sans-serif;
+    font-size : 20px;
+    font-weight :bold;
+    outline :none;
+    border : none;
+    transition: background 0.5s ease;
+    
+}
+.container table td button:hover {
+    background: #898787;
+}
+
+.container table td button:active {
+    transform: scale(0.95);
+    background: #666;
+
+}
+.container table .ash {
+    background-color :#a59f9f;
+}
+.container table .yellow {
+    background-color : orange;
+    color : white;
+}
+.container table .black {
+    background-color : #575050;
+    color : white;
+}
+.container input {
+    width : 280px;
+    height : 50px;
+    border-radius : 10px;
+    background-color : black;
+    outline : none;
+    color : white;
+    font-family : sans-serif;
+    font-weight : bold;
+    font-size : 40px;
+    text-align : right;
+    
+}
